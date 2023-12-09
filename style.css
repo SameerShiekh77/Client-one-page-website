@@ -1,0 +1,216 @@
+/* External CSS file (styles.css) */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #093560;
+}
+
+header {
+  background-color: #fff;
+  color: #093560;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo img {
+  width: 10em; /* Adjust the size of the logo */
+  height: auto;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #093560;
+  padding: 10px 12px;
+  border-radius: 14px;
+}
+
+nav ul li a:hover {
+  color: #fff;
+  background-color: #093560;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* New styles for the events section */
+.events-section {
+  background-color: #fff; /* Background color for the events section */
+  padding: 20px 0;
+  text-align: center;
+}
+
+.events-section h2 {
+  margin-bottom: 20px;
+}
+
+.events-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.events-images img {
+  max-width: 30%; /* Adjust the width of each event image */
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.events-images img:hover {
+  scale: 1.1;
+  transition: scale 0.5s ease-in-out;
+}
+
+/* Existing CSS styles... */
+
+.two-column-section {
+  background-color: #262e36;
+  color: #fff9f9;
+  padding: 40px 0;
+}
+
+.two-column-section h2 {
+  text-align: left;
+}
+
+.two-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-column {
+  flex: 1 1 50%; /* Adjust the width of the text column */
+  padding: 0 20px;
+}
+.text-column p {
+  line-height: 30px;
+}
+.image-column {
+  flex: 1 1 40%; /* Adjust the width of the image column */
+}
+
+.image-column img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 25px 0;
+  border-radius: 60px;
+}
+.image-column img:hover {
+  scale: 1.05;
+  transition: scale 1s ease-in-out;
+}
+
+/* Existing CSS styles... */
+/* contact form section */
+.contact-form-section {
+  background-color: gray;
+  color: white;
+  padding: 40px 0;
+}
+
+.contact-form-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  width: calc(100% - 16px);
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  padding: 12px 24px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* footer section */
+
+.site-footer {
+  background-color: #fff;
+  color: #262e36;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.site-footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #262e36;
+  font-size: 20px;
+}
+
+.site-footer .copyright {
+  margin: 0;
+}
